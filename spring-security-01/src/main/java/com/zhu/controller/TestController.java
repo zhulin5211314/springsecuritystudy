@@ -9,7 +9,7 @@ public class TestController {
 
     @RequestMapping("/test")
     public String mytest(){
-        System.out.println("测试");
+        System.out.println("master测试");
         return "环境测试！";
     }
 }
